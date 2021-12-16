@@ -13,7 +13,7 @@ def url_markup(videoid, duration, user_id, query, query_type):
             ),
             InlineKeyboardButton(
                 text="Play Now",
-                callback_data=f"Yukki {videoid}|{duration}|{user_id}",
+                callback_data=f"Ceylon Music {videoid}|{duration}|{user_id}",
             ),
             InlineKeyboardButton(
                 text="❯",
@@ -39,7 +39,7 @@ def url_markup2(videoid, duration, user_id):
         [
             InlineKeyboardButton(
                 text="▶️ Play Now",
-                callback_data=f"Yukki {videoid}|{duration}|{user_id}",
+                callback_data=f"Ceylon Music {videoid}|{duration}|{user_id}",
             ),
             InlineKeyboardButton(
                 text="🗑 Close Search",
@@ -67,21 +67,21 @@ def search_markup(
     buttons = [
         [
             InlineKeyboardButton(
-                text="1️⃣", callback_data=f"Yukki {ID1}|{duration1}|{user_id}"
+                text="1️⃣", callback_data=f"Ceylon Music {ID1}|{duration1}|{user_id}"
             ),
             InlineKeyboardButton(
-                text="2️⃣", callback_data=f"Yukki {ID2}|{duration2}|{user_id}"
+                text="2️⃣", callback_data=f"Ceylon Music {ID2}|{duration2}|{user_id}"
             ),
             InlineKeyboardButton(
-                text="3️⃣", callback_data=f"Yukki {ID3}|{duration3}|{user_id}"
+                text="3️⃣", callback_data=f"Ceylon Music {ID3}|{duration3}|{user_id}"
             ),
         ],
         [
             InlineKeyboardButton(
-                text="4️⃣", callback_data=f"Yukki {ID4}|{duration4}|{user_id}"
+                text="4️⃣", callback_data=f"Ceylon Music {ID4}|{duration4}|{user_id}"
             ),
             InlineKeyboardButton(
-                text="5️⃣", callback_data=f"Yukki {ID5}|{duration5}|{user_id}"
+                text="5️⃣", callback_data=f"Ceylon Music {ID5}|{duration5}|{user_id}"
             ),
         ],
         [
